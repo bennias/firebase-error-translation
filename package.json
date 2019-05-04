@@ -10,10 +10,23 @@
     "type": "git",
     "url": "git+https://github.com/bennias/firebase-error-translation.git"
   },
-  "author": "",
+  "author":{
+    "name" : "Benni Asal",
+    "email" : "bennias96@gmail.com",
+    "url" : "https://github.com/bennias"
+  },
+  "contributors": [{
+    "name" : "Deniz Temizer",
+    "email" : "hello@dtmzr.com",
+    "url" : "https://github.com/dtmzr"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bennias/firebase-error-translation/issues"
   },
-  "homepage": "https://github.com/bennias/firebase-error-translation#readme"
+  "homepage": "https://github.com/bennias/firebase-error-translation#readme",
+  "dependencies": {
+    "firebase": "^5.11.1",
+    "i18n-js": "^3.2.1"
+  }
 }
